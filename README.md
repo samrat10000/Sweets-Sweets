@@ -68,6 +68,22 @@ This project was primarily developed by me as part of my full-stack learning jou
 ### Reflection
 This project helped me strengthen my understanding of full-stack development, especially authentication, authorization, RESTful API design, and role-based access control. Limited AI assistance was used only as a learning aid, not as a replacement for implementation.
 
+## Deployment
+
+### Backend (Render)
+1.  **Push to GitHub**: Ensure your code is pushed to your GitHub repository.
+2.  **Create Service**: Go to [Render Dashboard](https://dashboard.render.com/).
+3.  **Blueprints**: Click "New" -> "Blueprint".
+4.  **Connect Repo**: Connect your GitHub repository.
+5.  **Apply**: Render will detect `render.yaml` and auto-configure the backend service.
+6.  **Environment Variables**: You will be prompted to enter the values for `MONGO_URI`, `JWT_SECRET`, etc.
+
+**Manual Setup (Alternative):**
+-   **Build Command**: `npm install`
+-   **Start Command**: `npm start`
+-   **Root Directory**: `backend`
+-   **Environment Variables**: Add all variables from your `.env` file.
+
 ## Features
 - User Authentication (Register/Login)
 - Product Management (Admin)
