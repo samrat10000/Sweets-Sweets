@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const BASE_URI = import.meta.env.VITE_BASE_URI;
+const BASE_URI = "https://sweet-shop-backend-z5rp.onrender.com/api";
+// const BASE_URI = import.meta.env.VITE_BASE_URI;
 
 const api = axios.create({
   baseURL: BASE_URI,

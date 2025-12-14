@@ -30,7 +30,7 @@ const CreateEvent = () => {
 
   const uploadToCloudinary = async (file) => {
     try {
-      const { data } = await axios.get("http://localhost:5000/api/cloudinary/signature");
+      const { data } = await axios.get("https://sweet-shop-backend-z5rp.onrender.com/api/cloudinary/signature");
       const { signature, timestamp } = data;
 
       const cloudName = REACT_APP_CLOUDINARY_CLOUD_NAME;
@@ -68,7 +68,7 @@ const CreateEvent = () => {
         clubImage: clubImageUrl,
       };
 
-      await axios.post("http://localhost:5000/api/events/create", payload);
+      await axios.post("https://sweet-shop-backend-z5rp.onrender.com/api/events/create", payload);
 
       alert("Event created successfully!");
       setFormData({

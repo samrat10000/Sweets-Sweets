@@ -1,4 +1,26 @@
-# Sweet Shop Application
+# Sweet Shop 🍬
+
+## Live Demo
+- **Storefront**: [https://sweets-sweets-trex.onrender.com](https://sweets-sweets-trex.onrender.com)
+- **Admin Panel**: [https://sweets-sweets-trex.onrender.com/admin](https://sweets-sweets-trex.onrender.com/admin)
+
+### Admin Credentials (Try it!)
+- **Email**: `trex@gmail.com`
+- **Password**: `trex`
+
+## Screenshots
+
+| Home Page | Shopping Cart |
+|:---:|:---:|
+| ![Home](screenshots/home.png) | ![Cart](screenshots/cart.png) |
+
+| Admin Dashboard | Registration |
+|:---:|:---:|
+| ![Admin](screenshots/admin.png) | ![Register](screenshots/register.png) |
+
+| Order Receipt |
+|:---:|
+| ![Receipt](screenshots/receipt.png) |
 
 A full-stack e-commerce application for selling sweets. Built with React (Vite) and Express (Node.js).
 
@@ -83,6 +105,15 @@ This project helped me strengthen my understanding of full-stack development, es
 -   **Start Command**: `npm start`
 -   **Root Directory**: `backend`
 -   **Environment Variables**: Add all variables from your `.env` file.
+
+### Frontend (Render)
+1.  **Push**: Ensure your code (with the updated `render.yaml`) is pushed to GitHub.
+2.  **Dashboard**: Go to your Render Dashboard.
+3.  **Update Blueprint**:
+    -   Render should detect the changes in `render.yaml` automatically.
+    -   Go to your "Blueprints" page and click "Sync" or "Update" if it doesn't happen automatically.
+    -   It will create a new **Static Site** service for your frontend alongside the backend.
+4.  **Done**: Render will build your React app and deploy it!
 
 ## Features
 - User Authentication (Register/Login)
