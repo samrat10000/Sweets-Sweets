@@ -1,12 +1,12 @@
 # Sweet Shop 🍬
 
 ## Live Demo
-- **Storefront**: [https://sweets-sweets-trex.onrender.com](https://sweets-sweets-trex.onrender.com)
-- **Admin Panel**: [https://sweets-sweets-trex.onrender.com/admin](https://sweets-sweets-trex.onrender.com/admin)
+- **Storefront**: [https://sweets-sweets-trex.onrender.com/login](https://sweets-sweets-trex.onrender.com/login)
+
 
 ### Admin Credentials (Try it!)
 - **Email**: `trex@gmail.com`
-- **Password**: `trex`
+- **Password**: `pass12345`
 
 ## Screenshots
 
