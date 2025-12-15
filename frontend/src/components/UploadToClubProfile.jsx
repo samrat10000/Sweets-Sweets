@@ -101,8 +101,8 @@ const UploadToClubProfile = ({ onUploadComplete }) => {
           onClick={() => handleUpload(image)}
           disabled={!image}
           className={`mt-5 w-full py-2 px-4 rounded-md text-white font-semibold transition-all shadow-sm ${image
-              ? "bg-blue-500 hover:bg-blue-600"
-              : "bg-blue-300 cursor-not-allowed"
+            ? "bg-blue-500 hover:bg-blue-600"
+            : "bg-blue-300 cursor-not-allowed"
             }`}
         >
           Upload Image
