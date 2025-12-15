@@ -1,7 +1,7 @@
 # Sweet Shop 🍬
 
 ## Live Demo
-- **Storefront**: [https://sweets-sweets-trex.onrender.com/login](https://sweets-sweets-trex.onrender.com/login)
+- **Storefront**: [https://sweets-sweets-trex.onrender.com](https://sweets-sweets-trex.onrender.com)
 
 
 ### Admin Credentials (Try it!)
