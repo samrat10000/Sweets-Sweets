@@ -1,6 +1,7 @@
+import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import { configDotenv } from "dotenv";
+// import { configDotenv } from "dotenv";
 import cartRoutes from "./routes/cart.js";
 import connectMongo from "./config/db.js";
 import authRoutes from "./routes/auth.js";
@@ -8,7 +9,7 @@ import sweetRoutes from "./routes/sweetRoutes.js";
 import cloudinaryRoutes from "./routes/cloudinaryRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 
-configDotenv();
+// configDotenv();
 
 connectMongo();
 

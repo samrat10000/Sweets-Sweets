@@ -15,8 +15,8 @@ import upload from "../middlewares/uploadMiddleware.js";
 const router = express.Router();
 
 router.post("/", authMiddleware, adminMiddleware, upload.single("image"), addSweet);
-router.get("/", authMiddleware, getAllSweets);
-router.get("/search", authMiddleware, searchSweets);
+router.get("/", getAllSweets);
+router.get("/search", searchSweets);
 router.put("/:id", authMiddleware, adminMiddleware, upload.single("image"), updateSweet);
 router.delete("/:id", authMiddleware, adminMiddleware, deleteSweet);
 
