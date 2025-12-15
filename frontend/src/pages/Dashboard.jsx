@@ -9,19 +9,7 @@ export default function Dashboard() {
   const { fetchCartCount } = useContext(CartContext);
 
   useEffect(() => {
-    api.get("/sweets")
-      .then(res => {
-        if (Array.isArray(res.data)) {
-          setSweets(res.data);
-        } else {
-          console.error("Expected array for sweets but got:", res.data);
-          setSweets([]);
-        }
-      })
-      .catch(err => {
-        console.error("Error fetching sweets:", err);
-        setSweets([]);
-      });
+    api.get("/sweets").then(res => setSweets(res.data));
   }, []);
 
   const filteredSweets = sweets.filter(s =>

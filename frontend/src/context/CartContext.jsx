@@ -15,8 +15,7 @@ export const CartProvider = ({ children }) => {
         }
         try {
             const res = await api.get("/cart");
-            const items = Array.isArray(res.data.items) ? res.data.items : [];
-            const count = items.reduce((acc, item) => acc + item.quantity, 0);
+            const count = res.data.items.reduce((acc, item) => acc + item.quantity, 0);
             setCartCount(count);
         } catch (error) {
             console.error("Error fetching cart count:", error);
